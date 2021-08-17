@@ -11,7 +11,7 @@ Rule GetSpiralGrowthRule()
 
 Rule GetSnowflakeRule()
 {
-  Rule snowflakeRule = new Rule(2, 3);
+  Rule snowflakeRule = new Rule(3, 2);
   snowflakeRule.SetTriple(0, 0, new Triple(1, DirectionSwitch.Left, 1));
   snowflakeRule.SetTriple(0, 1, new Triple(1, DirectionSwitch.Right, 0));
   snowflakeRule.SetTriple(1, 0, new Triple(1, DirectionSwitch.UTurn, 1));
