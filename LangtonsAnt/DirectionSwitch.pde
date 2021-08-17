@@ -1,0 +1,5 @@
+enum DirectionSwitch
+{
+  Left,
+  Right
+}
