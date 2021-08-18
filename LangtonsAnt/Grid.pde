@@ -4,9 +4,9 @@ class Grid
   
   private Cell[] data;
   
-  public Grid(int rows, int columns)
+  public Grid(int columns, int rows)
   {
-    this.Dimensions = new IntVector2(rows, columns);
+    this.Dimensions = new IntVector2(columns, rows);
     this.InitializeData();
   }
   
