@@ -3,7 +3,7 @@ Camera CreateGridCentralizedCamera(IntVector2 dimensions, float relativeGridSize
   return new Camera
   (
     GetGridCenter(dimensions),
-    FindZoomWithRelativeGridSize(relativeGridSize, automaton.Dimensions)
+    FindZoomWithRelativeGridSize(relativeGridSize, dimensions)
   );
 }
 
